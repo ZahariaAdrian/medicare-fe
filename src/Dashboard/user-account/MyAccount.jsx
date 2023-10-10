@@ -7,7 +7,7 @@ import useGetProfile from "../../hooks/useFetchData";
 import Loading from "../../components/Loading/Loading";
 import Error from "../../components/Error/Error";
 
-const BASE_URL = import.meta.env.REACT_APP_BASE_URL;
+const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL;
 
 export default function MyAccount() {
   const { dispatch } = useContext(authContext);

@@ -4,8 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { authContext } from "../context/AuthContext.jsx";
 import HashLoader from "react-spinners/HashLoader";
-const BASE_URL = import.meta.env.BASE_URL;
-
+const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL;
 const Login = () => {
   const [formData, setFormData] = useState({
     email: "",

@@ -6,7 +6,7 @@ import HashLoader from "react-spinners/HashLoader";
 import uploadImageToCloudinary from "../../utils/uploadCloudinary";
 import { token } from "../../config";
 
-const BASE_URL = import.meta.env.REACT_APP_BASE_URL;
+const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL;
 
 export const Profile = ({ user }) => {
   const [selectedFile, setSelectedFile] = useState(null);
