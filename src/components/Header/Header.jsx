@@ -81,7 +81,7 @@ const Header = () => {
 
           {/* nav right */}
           <div className="flex items-center gap-4">
-            {/* {token && user ? (
+            {token && user ? (
               <div>
                 <Link
                   to={`${
@@ -90,7 +90,7 @@ const Header = () => {
                       : "/users/profile/me"
                   }`}
                 >
-                  <figure className="w-[35px] h-[35px] rounded-full cursor-pointer">
+                  <figure className="w-[50px] h-[50px] rounded-full cursor-pointer">
                     <img
                       src={user?.photo}
                       className="w-full rounded-full"
@@ -99,13 +99,13 @@ const Header = () => {
                   </figure>
                 </Link>
               </div>
-            ) : ( */}
-            <Link to="/login">
-              <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]">
-                Login
-              </button>
-            </Link>
-            {/* )} */}
+            ) : (
+              <Link to="/login">
+                <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]">
+                  Login
+                </button>
+              </Link>
+            )}
 
             <span className="md:hidden" onClick={toggleMenu}>
               <BiMenu className="w-6 h-6 cursor-pointer" />
