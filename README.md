@@ -1,8 +1,65 @@
-# React + Vite
+# MERN Stack doctor appointment app.
+## Doctor appointment app made using React JS and Tailwind CSS, deployed with Netlify and Render!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+With a modern yet intuitive design, medicare represents the ultimate solution for managing your healthcare needs with ease and convenience. The application enhances the way you access and interact with healthcare services. Say goodbye to long waiting times, missed appointments, and complicated booking processes.
 
-Currently, two official plugins are available:
+![medicare](https://github.com/ZahariaAdrian/medicare-fe/assets/128701373/1ee56f07-0536-4727-ad9b-ee94f8ccec39)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main features implemented are:
+- Login/Register functionality
+- Customizable profile
+- Responsiveness
+- Intuitive design
+
+Features that are yet to be implemented:
+-Requesting an appointment
+-Payment processing
+-More customizable profiles
+
+# Getting Started
+
+The app will not work properly untill the server repository is also initialised.
+
+https://github.com/ZahariaAdrian/medicare-be.git
+
+## 1.Clone the repository
+
+git clone https://github.com/ZahariaAdrian/medicare-fe.git
+
+## 2.Install dependencies
+
+```javascript
+npm intall
+```
+
+## 3.Start app
+
+```javascript
+npm run dev
+```
+
+## Built With:
+
+#### Client
+
+- React
+- React Icons
+- React Router
+- React Toastify
+- Tailwind CSS
+
+#### Server
+
+- NodeJS
+- Express
+- Mongoose
+- cors
+- bcrypt
+- dotenv
+- cookie-parses
+- jsonwebtoken
+
+# Platforms
+
+- Netlify
+- Render
